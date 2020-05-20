@@ -193,21 +193,6 @@ span {
     color: #3170b4;
 }
 
-
-@media screen and (max-width: 992px) {
-    .section-md-column {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .rowCenter {
-        padding-bottom: 6rem;
-    }
-    .back-button{
-        left: 6%;
-    }
-}
-
 .add-new {
     display: flex;
     justify-content: center;
@@ -221,7 +206,6 @@ span {
     justify-content: center;
     width: 193px;
 }
-
 
 .container-image {
     display: grid;
@@ -258,6 +242,7 @@ span {
 
 .display-grid {
     display: grid;
+    margin: 15px 0;
 }
 
 .back-button{
@@ -277,5 +262,22 @@ span {
 @media screen and (max-width: 1200px) {
     .back-button{
         left: 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-md-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rowCenter {
+        padding-bottom: 6rem;
+    }
+    .add-new {
+        justify-content: normal;
+    }
+    .back-button{
+        left: 6%;
     }
 }

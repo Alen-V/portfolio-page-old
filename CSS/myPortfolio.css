@@ -277,6 +277,9 @@ span {
     .add-new {
         justify-content: normal;
     }
+    .display-grid {
+        padding: 0;
+    }
     .back-button{
         left: 6%;
     }

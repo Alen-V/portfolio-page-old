@@ -203,6 +203,9 @@ span {
     .rowCenter {
         padding-bottom: 6rem;
     }
+    .back-button{
+        left: 6%;
+    }
 }
 
 .add-new {
@@ -261,7 +264,18 @@ span {
     height: 36px;
     position: fixed;
     top: 100px;
-    left: 200px;
+    left: 15%;
     display: none;
 }
 
+@media screen and (max-width: 1400px) {
+    .back-button{
+        left: 12%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .back-button{
+        left: 10%;
+    }
+}

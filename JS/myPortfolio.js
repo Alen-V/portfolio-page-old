@@ -40,5 +40,4 @@ goBackBtn[0].addEventListener(`click`, function(){
     hidePage(hiddenPage)
     showPages(hideMainPage)
     showFlexPage(hideMainPage[0])
-
 })
